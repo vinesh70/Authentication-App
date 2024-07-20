@@ -63,7 +63,8 @@ export { auth, googleProvider };
 ```
 
 
-###Nodemailer:Create a .env file in the root of your server directory and add your email service credentials.
+### Nodemailer
+# Create a .env file in the root of your server directory and add your email service credentials.
 ```bash
 EMAIL_SERVICE=your_email_service
 EMAIL_USER=your_email@example.com
