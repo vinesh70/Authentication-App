@@ -1,0 +1,39 @@
+/* NavBar.css */
+
+/* Center the navigation bar */
+.nav {
+    background-color: #343a40; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav a {
+    color: #fff; /* White text color */
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.nav a:hover {
+    color: #007BFF; /* Primary color */
+    text-decoration: underline;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .nav a {
+        margin: 0.5rem 0;
+    }
+}
